@@ -1,0 +1,6 @@
+{
+  "name": "Cipherline",
+  "description": "Zero-trust network isolation and endpoint telemetry for security-focused engineering teams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
