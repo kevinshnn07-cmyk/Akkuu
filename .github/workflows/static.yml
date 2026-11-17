@@ -23,12 +23,12 @@ concurrency:
 
 jobs:
   # Single deploy job since we're just deploying 
-    deploy:
-    environment:
+      deploy:
+      environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
+      runs-on: ubuntu-latest
+      steps:
         name: Setup Node
         uses: actions/setup-node@v4
       with:
